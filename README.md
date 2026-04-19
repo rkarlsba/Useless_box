@@ -47,12 +47,15 @@ won't notice much difference and 9600 works on anything from around 1962 and pro
 
 ## Schematic
 
-The schematic is very simple and consists of the esp8266, two resistors, two capacitors, two servos
-and a switch. An external power switch is not included there - do it yourself! In addition to that,
-tehre's the 7805 if you need to power it with more than 5V. The ESP8266 mini board can handle 5V,
-but you'll let out the magic smoke if you go much higher. With the 7805, you also need a couple of
-caps to stabilise things. Note that if relay isn't enabled, you won't need R3 or Q1. Just remove E3
-and connect negative of the servos directly to GND instead of via the MOSFET. 
+[The schematic](kicad/) is very simple and consists of the ESP8266, two resistors, two capacitors,
+two servos and a switch. An external power switch is not included there - do it yourself! In
+addition to that, tehre's the 7805 if you need to power it with more than 5V. The ESP8266 mini board
+can handle 5V, but you'll let out the magic smoke if you go much higher.
+
+With the 7805, you also need a couple of caps to stabilise things.
+
+Note that if relay isn't enabled, you won't need R3 or Q1. Just remove E3 and connect negative of
+the servos directly to GND instead of via the MOSFET. 
 
 You may also want to increase C2 to 1mF (1000µF) to be on the safe side, but 470µF should do.
 
