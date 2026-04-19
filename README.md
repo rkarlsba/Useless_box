@@ -47,10 +47,11 @@ won't notice much difference and 9600 works on anything from around 1962 and pro
 
 ## Schematic
 
-[The schematic](kicad/) is very simple and consists of the ESP8266, two resistors, two capacitors,
-two servos and a switch. An external power switch is not included there - do it yourself! In
-addition to that, tehre's the 7805 if you need to power it with more than 5V. The ESP8266 mini board
-can handle 5V, but you'll let out the magic smoke if you go much higher.
+[The schematic](kicad/) is written in [KiCad](https://www.kicad.org/) and is very simple and
+consists of the ESP8266, two resistors, two capacitors, two servos and a switch. An external power
+switch is not included there - do it yourself! In addition to that, tehre's the 7805 if you need to
+power it with more than 5V. The ESP8266 mini board can handle 5V, but you'll let out the magic smoke
+if you go much higher.
 
 With the 7805, you also need a couple of caps to stabilise things.
 
